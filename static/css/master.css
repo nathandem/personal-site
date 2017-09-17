@@ -1,0 +1,84 @@
+body {
+  background-color: #042b68;
+}
+
+.main {
+  background-color: #ffffff;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  /*margin: 0 auto;*/
+  /*max-width: 800px;*/
+  border-radius: 5px;
+  padding: 0em 1em 0em 1em;
+}
+
+@media (min-width: 768px) { .container { max-width: 720px; } }
+
+.header {
+  padding-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  overflow: auto;
+  position: relative;
+  /*border: 5px solid red;*/
+}
+
+img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.contact {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  height: 80px;
+}
+
+button {
+  height: 100%;
+  width: 80%;
+}
+
+.call {
+  font-size: 25px;
+}
+
+.email {
+  font-size: 13px;
+}
+
+h3.paragraph {
+  text-align: left;
+}
+
+.farewell {
+  text-align: center;
+}
+
+.paragraph, .contact, .farewell {
+  padding-top: 0.8em;
+}
+
+ctn-links {
+  margin: auto;
+}
+
+.links {
+  margin: auto;
+}
+
+td {
+  padding: 0em 1.3em 1em 1.3em;
+}
+
+/*ul.links li {
+  margin: 0 10px;
+  display: inline-block;
+  padding: 0em 2em 1em 2em;
+}*/
+
+.fa {
+  font-size:2em;
+  color: #212529;
+}

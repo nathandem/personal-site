@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+
+{% block main_block %}
+
+    <div class="container header">
+      <div class="row">
+        <div class="img-container col-12 col-md-4">
+          <img src="{% static "image/me.jpg" %}" alt="Me :)">
+        </div>
+        <h1 class="col-12 col-md-8">Hi, I'm Nathan de Maestri <br>I do python back-end development in Paris</h1>
+      </div>
+    </div>
+
+    <div class="container content">
+
+    <h3 class="paragraph">What I can do:</h3>
+    <ul>
+      <li><strong>Webapps</strong>. I can do full webapps (back-end with some vanilla front-end) using <a href="https://www.djangoproject.com/">django</a> and <a href="https://www.postgresql.org/">postgres</a>. I can do back-end only for consumption by any client with <a href="http://www.django-rest-framework.org/">django rest</a>.</li>
+      <li><strong>ETLs</strong>. I can fetch data (from users, third-party APIs, scraping), clean it, push it to a DB (mongo or SQL). I like <a href="https://scrapy.org/">scrapy</a> for these tasks.</li>
+      <li><strong>Algorithms</strong>. I can do business logic algorithms, integrated in django or not.</li>
+      <li>I also know: <strong>git</strong>, <strong>deploy</strong> to some PaaS, work in projects using <strong>docker</strong>.</li>
+      <li>This list is <strong>ongoing</strong>, I'm always learning more!</li>
+    </ul>
+
+    <h3 class="paragraph">What I'm looking for:</h3>
+    <p>A back-end role in a small-to-medium-size project with a modern stack in python, along with a team using best practices (PR, tests, CI, etc).</p>
+
+    <a class="contact" href="mailto:nathan.demaestri@gmail.com"><button type="button" class="btn btn-success"><strong class="call">Get in touch!</strong><br> <span class="email">(nathan.demaestri@gmail.com)</span></button></a>
+
+    <h3 class="farewell">Hope to hear from you soon!</h3>
+      <table class="links">
+        <tr>
+          <td><a href="https://twitter.com/nathandem"><i class="fa">&#xf099;</i></a></td>
+          <td><a href="https://github.com/nathandem"><i class="fa">&#xf09b;</i></a></td>
+          <td><a href="https://www.linkedin.com/in/nathandem/"><i class="fa">&#xf0e1;</i></a></td>
+        </tr>
+      </table>
+
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+{% endblock %}
